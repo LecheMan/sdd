@@ -1,0 +1,302 @@
+{
+  "main": {
+    "id": "d5398c05e6d68efe",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5fa16f30f9c9fb2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7781227b5c4c75c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "flujos/Login.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Login"
+            }
+          },
+          {
+            "id": "9d49c9330e388d1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "flujos/Login.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Login"
+            }
+          },
+          {
+            "id": "cb72762bf6ce1579",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          },
+          {
+            "id": "cb1d84c91759970e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          },
+          {
+            "id": "2ffe1024e17dd0a4",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "tablero.base",
+                "viewName": "Te esperan"
+              },
+              "icon": "lucide-table",
+              "title": "tablero"
+            }
+          },
+          {
+            "id": "b0c4b8a25e40820a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "flujos/Login.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Login"
+            }
+          },
+          {
+            "id": "49cc012e6ec42e75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "decisiones/2FA por TOTP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2FA por TOTP"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "901e890ec811f846",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a7dfb04fc3434c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1dcb41b90d540433",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "abb668cdd1fa53c2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "9139162da3b1c07c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f7007b15f3d42adc",
+    "type": "split",
+    "children": [
+      {
+        "id": "e353d2c9a31dd17c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fec1cc7df2c980b5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Flujo Login.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "32abd34e4a63b04b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Flujo Login.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "8f6307803bd98fb5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "3b5e7c93072911bb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "004186f79958efa4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Flujo Login.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "b0c4b8a25e40820a",
+  "lastOpenFiles": [
+    "plantillas/area.md",
+    "plantillas/decision.md",
+    "tablero.base",
+    "Panel.md",
+    "flujo-tareas.base",
+    "area-flujos.base",
+    "decisiones/2FA por TOTP.md",
+    "areas/Auth.md",
+    "decisiones/2FA por TOTP.md.tmp.23484.5b2973d85095",
+    "areas",
+    "area-flujos.base.tmp.23484.57f2ffd8fe8e",
+    "tareas/Validar codigo 2FA.md",
+    "Sin título.canvas",
+    "plantillas/flujo.md",
+    "flujos/Login.md",
+    "plantillas/tarea.md",
+    "flujo-tareas.base.tmp.23484.0f99b4395139",
+    "DASD/11.md",
+    "DASD",
+    "2026-09-23.md",
+    "Sin título.base",
+    "Sin título 2.canvas",
+    "dsadsada.canvas",
+    "Tarea Validar 2FA.md",
+    "Panel.md.tmp.23484.75543344e4d2",
+    "Flujo Login.md",
+    "Sin título 5.canvas",
+    "Sin título 4.canvas",
+    "Sin título 3.canvas",
+    "qs.md",
+    "Sin título 1.canvas",
+    "Sin título.md"
+  ]
+}

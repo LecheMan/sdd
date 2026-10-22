@@ -1,0 +1,24 @@
+filters:
+  and:
+    - 'tipo == "tarea"'
+    - 'file.hasLink(this)'
+    - not:
+        - 'file.inFolder("plantillas")'
+properties:
+  estado:
+    displayName: Estado
+  codigo:
+    displayName: Código
+  cerrada:
+    displayName: Cerrada
+views:
+  - type: table
+    name: Tareas del flujo
+    order:
+      - file.name
+      - estado
+      - codigo
+      - cerrada
+    sort:
+      - property: file.name
+        direction: ASC

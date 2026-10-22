@@ -1,0 +1,58 @@
+{
+  "collapse-filter": true,
+  "search": "-path:plantillas -path:.base",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "[\"tipo\":\"area\"]",
+      "color": {
+        "a": 1,
+        "rgb": 10980346
+      }
+    },
+    {
+      "query": "[\"tipo\":\"flujo\"]",
+      "color": {
+        "a": 1,
+        "rgb": 5017087
+      }
+    },
+    {
+      "query": "[\"tipo\":\"decision\"]",
+      "color": {
+        "a": 1,
+        "rgb": 14722136
+      }
+    },
+    {
+      "query": "[\"tipo\":\"tarea\"]",
+      "color": {
+        "a": 1,
+        "rgb": 6273146
+      }
+    },
+    {
+      "query": "[\"tipo\":\"panel\"]",
+      "color": {
+        "a": 1,
+        "rgb": 15418782
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1,
+  "close": false
+}

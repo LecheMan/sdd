@@ -1,0 +1,16 @@
+filters:
+  and:
+    - tipo == "flujo"
+    - file.hasLink(this)
+properties:
+  estado:
+    displayName: Estado
+views:
+  - type: table
+    name: Flujos del área
+    order:
+      - file.name
+      - estado
+    sort:
+      - property: file.name
+        direction: ASC

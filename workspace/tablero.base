@@ -1,0 +1,74 @@
+filters:
+  not:
+    - file.inFolder("plantillas")
+properties:
+  estado:
+    displayName: Estado
+  flujo:
+    displayName: Flujo
+  codigo:
+    displayName: Código
+  cerrada:
+    displayName: Cerrada
+  area:
+    displayName: Área
+views:
+  - type: table
+    name: Te esperan
+    filters:
+      and:
+        - tipo == "tarea"
+        - estado == "bloqueada"
+    order:
+      - file.name
+      - flujo
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Decisiones abiertas
+    filters:
+      and:
+        - tipo == "decision"
+        - estado == "abierta"
+    order:
+      - file.name
+      - area
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: area
+        direction: ASC
+  - type: table
+    name: En curso
+    filters:
+      and:
+        - tipo == "tarea"
+        - estado == "en-curso"
+    order:
+      - file.name
+      - flujo
+      - codigo
+  - type: table
+    name: Listas
+    filters:
+      and:
+        - tipo == "tarea"
+        - estado == "lista"
+    order:
+      - file.name
+      - flujo
+  - type: table
+    name: Hechas
+    filters:
+      and:
+        - tipo == "tarea"
+        - estado == "hecha"
+    order:
+      - file.name
+      - flujo
+      - cerrada
+    sort:
+      - property: cerrada
+        direction: DESC
+    limit: 20
